@@ -34,6 +34,7 @@ public class JFLogin extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         jTextFieldUsuario.setBackground(new java.awt.Color(255, 255, 255));
+        jTextFieldUsuario.setText("kaua");
         jTextFieldUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldUsuarioActionPerformed(evt);
@@ -43,6 +44,7 @@ public class JFLogin extends javax.swing.JFrame {
         jTextFieldUsuario.setBounds(20, 210, 180, 26);
 
         jPasswordFieldSenha.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordFieldSenha.setText("2018");
         jPasswordFieldSenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordFieldSenhaActionPerformed(evt);
